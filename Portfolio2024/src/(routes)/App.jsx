@@ -1,18 +1,25 @@
 
 import React from 'react'
 
-import {NavBar, FooterPage, BodyPage} from '../components/index'
-import {  } from '../components/body'
+import {BodyPage, NavBar} from '../components/index'
 
+
+// FooterPage,
 
 function App() {
  
   return (
 
     <>
+    
+
+    <div className='App bg-neutral-900 '>
+
+    
     <NavBar />
     <BodyPage/>
-    <FooterPage />
+   </div>
+   
    </>
   )
 }
