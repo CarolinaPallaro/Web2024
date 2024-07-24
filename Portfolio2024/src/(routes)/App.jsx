@@ -1,27 +1,33 @@
 
 import React from 'react'
+import {  NavBar, } from '../components/index';
+// import { SocialNav } from '../components/index';
+import { Outlet } from 'react-router-dom';
 
-import {BodyPage, NavBar} from '../components/index'
+// import { BodyPage } from '../components/index';
 
-
-// FooterPage,
 
 function App() {
  
   return (
-
     <>
-    
 
-    <div className='App bg-neutral-900 '>
+    <div className='App flex min-h-[100vh] h-full bg-no-repeat justify-center bg-neutral-900 '> 
 
-    
-    <NavBar />
-    <BodyPage/>
-   </div>
+    {/* <SocialNav /> */}
+
+    <Outlet />
    
-   </>
-  )
+    <NavBar />
+    </div>
+
+   
+    
+    </>
+    
+    
+  );
 }
 
-export default App
+export default App;
+

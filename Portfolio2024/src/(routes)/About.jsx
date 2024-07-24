@@ -2,7 +2,7 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="flex flex-col justify-center items-center text-primaryFont desktop:px-10 desktop:py-10">
+    <div className=" flex flex-col justify-center items-center text-primaryFont desktop:px-10 desktop:py-10">
       <h1 className=" font-lexend text-lg ">ABOUT ME</h1>
       <p className="desktop:px-10 desktop:py-10 ">
         Hablar un poco de mi, de mi formacion y dejar redes y contacto (Mail)

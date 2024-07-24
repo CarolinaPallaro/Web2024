@@ -1,44 +1,23 @@
 import React from "react"
-// import { CoverParticles } from "../styles"
-import {Home } from '../../(routes)/index'
-//About, Portfolio, _Skills
+import {Home, } from '../../(routes)/index'
+//, Portfolio, _Skills About
 
 const BodyPage = ( ) => {
 
  return (
-    <main className="   ">
+    <main className=" ">
            
-       <section className="flex items-center justify-center ">
+       <section className=" ">
          
         
          <Home />
         </section> 
+
+        {/* <section className="flex ">
+         <About />
+        </section> */}
        
      
-      
-
-
-        {/* <section>
-            <article>
-           
-            </article>
-
-            <article>
-                <About />
-            </article>
-
-            <article>
-                <Portfolio />
-            </article>
-
-            <article>
-                <_Skills />
-            </article>
-           
-            
-        </section>
-     */}
-
     </main>
 
 

@@ -1,5 +1,7 @@
 import React from "react";
 import { DownloadB, CoverParticles } from "../components/index";
+import Image from '../../public/imgs/miFoto.png';
+import imageStyle from './routesStyles/Routes.module.css'
 
 const Home = () => {
   return (
@@ -32,11 +34,11 @@ const Home = () => {
 
                 <div className="relative movil:p-4 md:flex-1">
                  <img 
-                  className="grayscale  relative filter movil:w-40 laptop:w-72 tablet:w-64 desktop:w-auto"
-                  src="./public/imgs/miFoto.png"
-                  alt="photo"
+                  className={`${imageStyle.photo} grayscale relative filter movil:w-40 laptop:w-72 tablet:w-64 desktop:w-auto`}
+                  src={Image}
+                  alt="MyPhoto"
                   />
-                  <div className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-t from-neutral-900 to-transparent"></div>
+                  
                 </div>
          </div>
     </div>
