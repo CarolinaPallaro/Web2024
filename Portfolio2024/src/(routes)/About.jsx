@@ -1,7 +1,10 @@
 import React from "react";
-
+import fondoAbout from '../../src/(routes)/routesStyles/Routes.module.css'
 const About = () => {
   return (
+    <>
+    <div className={fondoAbout.fondoAbout}>
+
     <div className=" flex flex-col justify-center items-center text-primaryFont desktop:px-10 desktop:py-10">
       <h1 className=" font-lexend text-lg ">ABOUT ME</h1>
       <p className="desktop:px-10 desktop:py-10 ">
@@ -22,6 +25,8 @@ const About = () => {
         explicabo quod.
       </p>
     </div>
+    </div>
+    </>
   );
 };
 

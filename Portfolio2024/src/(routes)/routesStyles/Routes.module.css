@@ -4,3 +4,7 @@
         transparent 100%
     );
 }
+
+.fondo{
+    background-image: image("abaut-dark.png");
+}
