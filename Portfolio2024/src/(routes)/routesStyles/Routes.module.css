@@ -5,6 +5,6 @@
     );
 }
 
-.fondo{
-    background-image: image("abaut-dark.png");
+.fondoAbout{
+    background-image: image("about-dark.png");
 }
