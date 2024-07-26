@@ -1,13 +1,16 @@
-import React from 'react'
-import  {skillstItems} from './skillsData';
+import React from "react";
 
-const SkillsCards = ()=> {
+const SkillsCards = ({ title, items = [] }) => {
   return (
+    <article>
+      <h4 className=" font-lexend text-details">{title}</h4>
+      <ul>
+        {items.map((item, index) => (
+          <li key={index}>{item}</li>
+        ))}
+      </ul>
+    </article>
+  );
+};
 
-    <div className=''>
-       
-    </div>
-  )
-}
-
-export {SkillsCards}
+export { SkillsCards };
