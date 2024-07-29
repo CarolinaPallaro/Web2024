@@ -11,11 +11,11 @@ const socialMedia = [
   {
     name: 'GitHub',
     link: 'https://github.com/CarolinaPallaro',
-    icon: FaGithub  ,
+    icon: FaGithub,
   },
   {
     name: 'Mail',
-    link: 'desp vemos',
+    link: 'mailto:charopallaro20@gmail.com',
     icon: CiMail,
   },
 ];

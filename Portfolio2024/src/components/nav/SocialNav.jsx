@@ -5,12 +5,12 @@ import {socialMedia} from './dataNavTop'
 
 const SocialNav = () => {
   return (
-    <section className="py-2 px-10 top-10 w-full fixed bg-transparent ">
-      <ul className=" text-details flex justify-end space-x-5">
+    <section className="py-2 px-10 top-10 w-full fixed">
+      <ul className=" text-primary flex justify-end space-x-5">
         {socialMedia.map((item, index) => (
-          <li className="text-3xl " key={index}>
+          <li className="text-3xl cursor-pointer hover:text-secondary transition-colors duration-500 " key={index}>
             <a href={item.link} target="_blank" rel="noopener noreferrer">
-              <item.icon className="cursor-pointer hover:text-primaryFont transition-colors duration-500 " />
+              <item.icon className="" />
             </a>
           </li>
         ))}

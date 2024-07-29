@@ -7,7 +7,7 @@ const NavBar = () => {
     const location = useLocation();
 
     return (
-        <nav className="py-2 px-10 fixed bottom-6 w-full bg-transparent flex justify-center  desktop:px-10 z-50">
+        <nav className="py-2 px-10 fixed bottom-6 w-full flex justify-center  desktop:px-10 z-50">
 
             <ul className="flex space-x-5 font-sans text-wrap  flex-col items-center movil:flex-row movil:justify-center">
             {routes[0].children.map((route, index)=>(
