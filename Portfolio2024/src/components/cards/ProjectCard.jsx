@@ -1,13 +1,12 @@
 import React from "react";
 
-
 const ProjectCard = ({ images, title, description, deploy, repo }) => {
   return (
     <article
       className="m-3 p-3 flex flex-col rounded-xl border-collapse overflow-hidden max-w-sm mx-auto
-     shadow-md space-y-4 bg-neutral-900"
+     shadow-md space-y-4 bg-neutral-900 [&>img]:hover:blur-0"
     >
-      <img className="blur-sm hover:blur-0 duration-500 w-full h-48 object-cover" src={images} alt="projectImg" />
+      <img className="blur-sm duration-500 w-full h-48 object-cover" src={images} alt="projectImg" />
       <h2 className="text-lg mb-2 font-lexend text-left text-primaryFont ">{title}</h2>
       <p className="text-ls text-left text-gray-400">{description}</p>
 
@@ -23,4 +22,4 @@ const ProjectCard = ({ images, title, description, deploy, repo }) => {
   );
 };
 
-export {ProjectCard};
+export { ProjectCard };

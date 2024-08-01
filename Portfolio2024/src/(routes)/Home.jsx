@@ -1,14 +1,17 @@
 import React from "react";
 import { DownloadB, CoverParticles } from "../components/index";
-import imageStyle from './routesStyles/Routes.module.css'
+import imageStyle from "./routesStyles/Routes.module.css";
 
 const Home = () => {
   return (
-    <div className="flex justify-center items-center z-0 container min-h-[100vh] h-full bg-no-repeat">
+    <div className="flex justify-center items-start z-0 container h-full bg-no-repeat">
       <CoverParticles />
+      <section className="flex z-50 flex-col ">
+        <article className="movil:w-full flex justify-center">
+          <img className={`${imageStyle.photo} grayscale filter `} src="/public/imgs/miFoto.png" alt="MyPhoto" />
+        </article>
 
-      <section className="flex z-50 flex-col-reverse ">
-        <header className=" tablet:text-left p-4 ">
+        <article className=" tablet:text-left p-4 ">
           <h1 className="text-primary text-3xl font-lexend font-bold ">
             {" "}
             <span className="text-primaryFont ">Hi im Caro, </span>
@@ -24,14 +27,10 @@ const Home = () => {
           <br />
 
           <DownloadB />
-        </header>
-
-        <article className="movil:w-full flex justify-center">
-          <img className={`${imageStyle.photo} grayscale filter `} src="/public/imgs/miFoto.png" alt="MyPhoto" />
         </article>
       </section>
     </div>
   );
 };
 
-export {Home};
+export { Home };

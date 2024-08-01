@@ -1,15 +1,11 @@
 import React from "react";
-import {ProjectCard} from "../components/index"
-import { projects} from "../components/cards/projectsFront";
+import { ProjectCard } from "../components/index";
+import { projects } from "../components/cards/projectsFront";
+import backgroundSections from "../constants/constants";
 
 const Portfolio = () => {
   return (
-    <section className="flex flex-col text-primaryFont py-10 px-2">
-      <img
-        className="absolute inset-0  w-full h-full object-cover z-0"
-        src="./public/imgs/portfolio-dark.png"
-        alt="portfolio-dark"
-      />
+    <article className={`${backgroundSections.portfolio} flex flex-col text-primaryFont px-2`}>
       <header className="portfolio py-14 space-y-3 text-primaryFont flex flex-col items-center ">
         <h2 className="font-lexend text-lg underline decoration-primary">PORTFOLIO</h2>
         <p className="p-4 text-primaryFont text-left tablet:text-lg ">
@@ -31,7 +27,7 @@ const Portfolio = () => {
           ))}
         </section>
       </main>
-    </section>
+    </article>
   );
 };
 
