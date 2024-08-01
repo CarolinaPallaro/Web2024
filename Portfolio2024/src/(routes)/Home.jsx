@@ -4,22 +4,21 @@ import imageStyle from './routesStyles/Routes.module.css'
 
 const Home = () => {
   return (
-    <section className=" container min-h-[100vh] h-full bg-no-repeat">
+    <div className="flex justify-center items-center z-0 container min-h-[100vh] h-full bg-no-repeat">
       <CoverParticles />
 
-      <div className="flex justify-center place-items-center flex-col-reverse z-50 ">
-        <header className=" md:text-left p-4 md:flex-1">
+      <section className="flex z-50 flex-col-reverse ">
+        <header className=" tablet:text-left p-4 ">
           <h1 className="text-primary text-3xl font-lexend font-bold ">
             {" "}
             <span className="text-primaryFont ">Hi im Caro, </span>
             <br /> Front Developer
           </h1>
 
-          <p className=" text-primaryFont ">
+          <p className=" text-primaryFont text-left tablet:text-lg">
             I am a Front Developer, I have been working in this area for 2 Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit.
-            <br /> Consequatur incidunt, architecto pariatur porro ducimus aut reiciendis provident laudantium mollitia
-            quasi vero <br /> reprehenderit ad ea, asperiores officiis animi quaerat nam labore.
+            adipisicing elit. Consequatur incidunt, architecto pariatur porro ducimus aut reiciendis provident
+            laudantium mollitia quasi vero reprehenderit ad ea, asperiores officiis animi quaerat nam labore.
           </p>
 
           <br />
@@ -27,15 +26,11 @@ const Home = () => {
           <DownloadB />
         </header>
 
-        <article className="relative movil:p-4 md:flex-1">
-          <img
-            className={`${imageStyle.photo} grayscale relative filter movil:w-40 laptop:w-72 tablet:w-64 desktop:w-auto`}
-            src="/public/imgs/miFoto.png"
-            alt="MyPhoto"
-          />
+        <article className="movil:w-full flex justify-center">
+          <img className={`${imageStyle.photo} grayscale filter `} src="/public/imgs/miFoto.png" alt="MyPhoto" />
         </article>
-      </div>
-    </section>
+      </section>
+    </div>
   );
 };
 

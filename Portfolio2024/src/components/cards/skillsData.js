@@ -3,13 +3,13 @@
 const skillstItems = [
     { 
         id: 1,
-        title: "Frontend",
+        title:"< Frontend />",
         skills: ["JavaScript", "CSS", "HTML", "React", "Tailwind CSS"]
     },
     {
         id: 2,
-        title: "Backend",
-        skills:["SpringBoot","SQL MySql","Postman","RESTful API"]
+        title:"< Backend />",
+        skills:["Java","SpringBoot","SQL MySql","Postman","RESTful API"]
         
     }
 

@@ -14,7 +14,7 @@ function App() {
 
     <div className='App flex min-h-[100vh] h-full bg-no-repeat justify-center bg-neutral-900 '> 
 
-    <SocialNav />
+    <SocialNav/>
 
     <Outlet />
    

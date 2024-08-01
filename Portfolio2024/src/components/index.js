@@ -1,4 +1,4 @@
-export * from './nav/NabBar';
+export * from './nav/NavBar';
 export * from './nav/SocialNav';
 export * from './footer/FooterPage';
 export * from './body/BodyPage';
