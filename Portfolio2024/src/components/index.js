@@ -5,3 +5,4 @@ export * from './body/BodyPage';
 export * from './buttons/DownloadB';
 export * from './cards/ProjectCard';
 export * from './styles/CoverParticles';
+export * from './frame_components/transitions'

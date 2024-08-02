@@ -2,7 +2,6 @@ import React from "react";
 import { NavBar } from "../components/index";
 import { SocialNav } from "../components/index";
 import { Outlet } from "react-router-dom";
-
 // import { BodyPage } from '../components/index';
 
 function App() {
@@ -13,7 +12,6 @@ function App() {
         <section className="pt-14">
           <Outlet />
         </section>
-
         <NavBar />
       </div>
     </>

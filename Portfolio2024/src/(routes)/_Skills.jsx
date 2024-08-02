@@ -2,6 +2,7 @@ import React from "react";
 import { SkillsCards } from "../components/cards/SkillsCards";
 import { skillstItems } from "../components/cards/skillsData";
 import backgroundSections from "../constants/constants";
+import transition from "../components/frame_components/transitions";
 
 const _Skills = () => {
   return (
@@ -23,4 +24,4 @@ const _Skills = () => {
   );
 };
 
-export { _Skills };
+export default  transition(_Skills) ;

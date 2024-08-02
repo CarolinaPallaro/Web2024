@@ -1,6 +1,6 @@
 import React from 'react'
-import App from '../(routes)/App';
-import {Home, About, Portfolio, _Skills} from '../(routes)/index.js';
+import App from '../App.jsx';
+import {Home, About, Portfolio, _Skills} from '../index.js';
 
 
 const routes =[
