@@ -8,7 +8,7 @@ const Home = () => {
       <CoverParticles />
       <section className="flex z-50 flex-col ">
         <article className="movil:w-full flex justify-center">
-          <img className={`${imageStyle.photo} grayscale filter `} src="/public/imgs/miFoto.png" alt="MyPhoto" />
+          <img className={`${imageStyle.photo} grayscale filter `} src="/imgs/miFoto.png" alt="MyPhoto" />
         </article>
 
         <article className=" tablet:text-left p-4 ">
