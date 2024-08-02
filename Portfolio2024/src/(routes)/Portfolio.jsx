@@ -5,7 +5,7 @@ import backgroundSections from "../constants/constants";
 
 const Portfolio = () => {
   return (
-    <article className={`${backgroundSections.portfolio} flex flex-col text-primaryFont px-2`}>
+    <article className={`${backgroundSections.portfolio} flex flex-col text-primaryFont px-2 mb-20`}>
       <header className="portfolio py-14 space-y-3 text-primaryFont flex flex-col items-center ">
         <h2 className="font-lexend text-lg underline decoration-primary">PORTFOLIO</h2>
         <p className="p-4 text-primaryFont text-left tablet:text-lg ">

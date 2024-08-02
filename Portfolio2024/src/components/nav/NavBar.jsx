@@ -7,7 +7,7 @@ const NavBar = () => {
     const location = useLocation();
 
     return (
-      <nav className=" fixed  bottom-6 w-full z-50 p-4 movil:grid justify-center items-center ">
+      <nav className=" fixed  bottom-6 w-full z-50 p-4 movil:grid justify-center items-center  bg-neutral-900/10 backdrop-blur-sm border-t-2 border-neutral-900/15  `">
         <ul className="flex  gap-3 items-center tablet:flex-row">
           {routes[0].children.map((route, index) => (
             <li

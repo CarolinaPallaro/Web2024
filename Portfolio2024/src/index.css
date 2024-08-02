@@ -5,5 +5,5 @@
 html,
 html * {
   scrollbar-width: thin;
-  scrollbar-color: rgb(300, 212, 212) rgb(219, 39, 119);
+  scrollbar-color: rgb(219, 39, 119) rgb(23, 23, 23);
 }
