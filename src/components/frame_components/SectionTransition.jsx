@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import transitions from "./transition.module.css";
+import transitions from './transition.module.css';
 
 const SectionTransition = ({ Section }) => {
   return (

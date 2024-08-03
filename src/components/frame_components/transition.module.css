@@ -7,7 +7,7 @@
   width: 100vw;
   height: 100vh;
   background: #0f0f0f;
-  transform-origin: right;
+  transform-origin: left;
 }
 
 .slideOut {
@@ -18,5 +18,5 @@
   width: 100vw;
   height: 100vh;
   background: #0f0f0f;
-  transform-origin: left;
+  transform-origin: right ;
 }
