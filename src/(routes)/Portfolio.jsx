@@ -2,7 +2,6 @@ import React from "react";
 import { ProjectCard } from "../components/index";
 import { projects } from "../components/cards/projectsFront";
 import backgroundSections from "../constants/constants";
-import transition from "../components/frame_components/transitions";
 
 const Portfolio = () => {
   return (
@@ -32,4 +31,4 @@ const Portfolio = () => {
   );
 };
 
-export default transition(Portfolio);
+export default Portfolio;

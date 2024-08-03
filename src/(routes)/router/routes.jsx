@@ -1,31 +1,37 @@
-import React from 'react'
-import App from '../App.jsx';
-import {Home, About, Portfolio, _Skills} from '../index.js';
+import React from "react";
+import App from "../App.jsx";
+import { Home, About, Portfolio, Skills } from "../index.js";
+import { createBrowserRouter } from "react-router-dom";
 
-
-const routes =[
-{
-    path:'/',
-    element: <App />,
-        children: [
-            {
-                path: '',
-                element: <Home />
-            },
-            {
-                path: 'about',
-                element: <About />
-            },
-            {
-                path: 'portfolio',
-                element: <Portfolio />
-            },
-            {
-                path: 'skills',
-                element: <_Skills />
-            },
-        ],
-    },
+export const navRoutes = [
+  {
+    path: "/",
+    element: <Home />,
+    name: "Home",
+  },
+  {
+    path: "/about",
+    element: <About />,
+    name: "About",
+  },
+  {
+    path: "/portfolio",
+    element: <Portfolio />,
+    name: "Portfolio",
+  },
+  {
+    path: "/skills",
+    element: <Skills />,
+    name: "Skills",
+  },
 ];
+
+const routes = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+    children: navRoutes,
+  },
+]);
 
 export default routes;

@@ -1,6 +1,5 @@
 import React from "react";
 import backgroundSections from "../constants/constants";
-import transition from "../components/frame_components/transitions";
 
 const About = () => {
   return (
@@ -26,4 +25,4 @@ const About = () => {
   );
 };
 
-export default transition(About );
+export default About;

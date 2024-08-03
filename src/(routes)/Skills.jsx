@@ -2,9 +2,8 @@ import React from "react";
 import { SkillsCards } from "../components/cards/SkillsCards";
 import { skillstItems } from "../components/cards/skillsData";
 import backgroundSections from "../constants/constants";
-import transition from "../components/frame_components/transitions";
 
-const _Skills = () => {
+const Skills = () => {
   return (
     <section className={`${backgroundSections.skills} flex flex-col text-primaryFont py-10 px-2`}>
       <header className="py-14 space-y-3 text-primaryFont flex flex-col items-center ">
@@ -24,4 +23,4 @@ const _Skills = () => {
   );
 };
 
-export default  transition(_Skills) ;
+export default Skills;

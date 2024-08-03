@@ -1,5 +1,3 @@
-import transition from './src/components/frame_components/transitions'
-
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx,svg,module.css}'],
@@ -23,11 +21,6 @@ export default {
         about: "url('/imgs/about-dark.png')",
         skills: "url('/imgs/skills-dark.png')",
         portfolio: "url('/imgs/portfolio-dark.png')",
-      },
-      {
-        transition:{
-          
-        }
       },
       fontFamily: {
         lexend: ['Lexend', 'sans-serif'], // principal
