@@ -1,9 +1,7 @@
 import React from "react";
 import { NavBar } from "../components/index";
 import { SocialNav } from "../components/index";
-import SectionTransition from "../components/frame_components/SectionTransition";
-import { Outlet } from "react-router-dom";
-// import { BodyPage } from '../components/index';
+import AnimatedOutlet from "./router/AnimatedOutlet";
 
 function App() {
   return (
@@ -12,8 +10,10 @@ function App() {
         <SocialNav />
         <section className="pt-14">
          
-            <SectionTransition Section={Outlet} />
-          
+           
+              <AnimatedOutlet />
+           
+         
         </section>
         <NavBar />
       </div>

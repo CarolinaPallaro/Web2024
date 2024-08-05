@@ -28,9 +28,12 @@ export const navRoutes = [
 
 const routes = createBrowserRouter([
   {
-    path: "",
+    path: "/",
     element: <App />,
-    children: navRoutes,
+    children: navRoutes.map(route => ({
+      path: route.path,
+      element: route.element,
+    })),
   },
 ]);
 
