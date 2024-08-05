@@ -19,9 +19,9 @@ const Home = () => {
           </h1>
 
           <p className=" text-primaryFont text-left tablet:text-lg">
-            I am a Front Developer, I have been working in this area for 2 Lorem ipsum dolor sit amet consectetur,
-            adipisicing elit. Consequatur incidunt, architecto pariatur porro ducimus aut reiciendis provident
-            laudantium mollitia quasi vero reprehenderit ad ea, asperiores officiis animi quaerat nam labore.
+            with <strong className="text-details font-serif">3+ years</strong> dedicated to studying and practicing web
+            development. I am currently seeking my first formal work experience, eager to apply my knowledge in creating
+           intuitiveand engaging user interfaces.
           </p>
 
           <br />

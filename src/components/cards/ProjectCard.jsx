@@ -8,17 +8,16 @@ const ProjectCard = ({ images, title, technologies, description, deploy, repo })
     >
       <img className="blur-sm duration-500 w-full h-48 object-cover" src={images} alt="projectImg" />
       <h2 className="text-lg mb-2 font-lexend text-left text-primaryFont ">{title}</h2>
-      <p className="font-lexend text-secondary">
-        Technologies: <em>{technologies}</em>
+      <p className="font-lexend text-secondary"> Technologies: <em>{technologies}</em>
       </p>
-      <p className="text-ls text-left text-gray-400">{description}</p>
+      <p className="text-sm text-left text-gray-400">{description}</p>
 
       <div className="flex flex-row gap-5 items-center font-semibold">
         <a
           href={deploy}
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-transparent hover:bg-blue-500 text-secondary  hover:text-primaryFont py-2 px-4 border border-secondary hover:border-transparent rounded cursor-pointer"
+          className="bg-transparent hover:bg-secondary text-secondary  hover:text-primaryFont py-2 px-4 border border-secondary hover:border-transparent rounded cursor-pointer"
         >
           Deploy
         </a>

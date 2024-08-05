@@ -1,6 +1,6 @@
 import React from "react";
-import { SkillsCards } from "../components/cards/SkillsCards";
-import { skillstItems } from "../components/cards/skillsData";
+import { SkillsCards, DetailsCards } from "../components/cards/index";
+import { aboutEducation, skillstItems } from "../components/cards/skillsData";
 import backgroundSections from "../constants/constants";
 
 const Skills = () => {
@@ -14,10 +14,18 @@ const Skills = () => {
         </p>
       </header>
 
-      <main className="flex  justify-around p-2  text-primaryFont  desktop:p-5 ">
-        {skillstItems.map(({ title, skills }, index) => (
-          <SkillsCards key={index} title={title} items={skills} />
-        ))}
+      <main className="flex flex-col justify-around p-2  text-primaryFont  desktop:p-5 ">
+        <article className="gap-4 space-y-8 p-8 z-50">
+          <div className="flex flex-row justify-around">
+            {skillstItems.map(({ title, skills }, index) => (
+              <SkillsCards key={index} title={title} items={skills} />
+            ))}
+          </div>
+
+          {aboutEducation.map((about, index) => (
+            <DetailsCards key={index} title={about.title} text={about.text} />
+          ))}
+        </article>
       </main>
     </section>
   );
