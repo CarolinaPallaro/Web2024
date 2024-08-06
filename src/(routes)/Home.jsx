@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className="flex justify-center items-start z-0 container h-full bg-no-repeat">
       <CoverParticles />
-      <section className="flex z-50 flex-col ">
+      <section className="flex z-50 flex-col font-lexend">
         <article className="movil:w-full flex justify-center">
           <img className={`${imageStyle.photo} grayscale filter `} src="/imgs/miFoto.png" alt="MyPhoto" />
         </article>
@@ -19,9 +19,9 @@ const Home = () => {
           </h1>
 
           <p className=" text-primaryFont text-left tablet:text-lg">
-            with <strong className="text-details font-serif">3+ years</strong> dedicated to studying and practicing web
+            With <strong className="text-details font-serif">3+ years</strong> dedicated to studying and practicing web
             development. I am currently seeking my first formal work experience, eager to apply my knowledge in creating
-           intuitiveand engaging user interfaces.
+            intuitiveand engaging user interfaces.
           </p>
 
           <br />

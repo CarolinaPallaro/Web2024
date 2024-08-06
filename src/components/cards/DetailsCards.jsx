@@ -15,7 +15,7 @@ const DetailsCards = ({ title, text }) => {
     >
       <summary className="text-sm font-lexend leading-6 text-primaryFont font-semibold select-none">{title}</summary>
       <div className="mt-3 font-lexend text-sm leading-6 text-primaryFont">
-        <p>{text}</p>
+        <p className="whitespace-pre-line">{text}</p>
       </div>
     </details>
   );

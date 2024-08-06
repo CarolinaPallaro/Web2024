@@ -2,13 +2,13 @@
 const skillstItems = [
     { 
         id: 1,
-        title:"< Frontend />",
-        skills: ["JavaScript", "CSS", "HTML", "React", "Tailwind CSS"]
+        title:" Frontend ",
+        skills: ["JavaScript", "CSS", "HTML", "React", "Tailwind CSS", "Figma"]
     },
     {
         id: 2,
-        title:"< Backend />",
-        skills:["Java","SpringBoot","SQL MySql","Postman","RESTful API"]
+        title:" Backend ",
+        skills:["Java","SpringBoot","SQL MySql","Postman","RESTful API", "Git / GitHub"]
         
     }
 
@@ -17,7 +17,8 @@ const skillstItems = [
 const aboutEducation = [
   {
     title: 'Education:',
-    text: 'Bootcamps: Digital House and Oracle One. Ongoing self-directed learning of emerging technologies',
+    text: `Bootcamps \n - Digital House: Certified Tech Developer programming career \n - One Oracle Next Education: Fundamental concepts of programming logic, JavaScript, CSS, HTML, DOM manipulation, and backend tools with Java. 
+    \n Ongoing self-directed learning of emerging technologies`,
   },
   {
     title: 'About this Portfolio:',

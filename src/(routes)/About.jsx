@@ -6,8 +6,8 @@ const About = () => {
     <article
       className={`${backgroundSections.about} flex text-primaryFont space-x-2 px-4 tablet:items-center max-w-[800px]`}
     >
-      <header className=" text-center space-y-3 z-10 flex-col movil:py-3 max-h-50 justify-center tablet:h-30 tablet:m-40 ">
-        <h1 className=" font-lexend text-lg underline decoration-details">ABOUT ME</h1>
+      <header className=" text-center space-y-3 z-10 flex-col font-lexend  movil:py-3 max-h-50 justify-center tablet:h-30 tablet:m-40 ">
+        <h1 className=" text-lg underline decoration-details">ABOUT ME</h1>
         <p className="text-left">
           Hablar un poco de mi, de mi formacion y dejar redes y contacto (Mail) Lorem ipsum, dolor sit amet consectetur
           adipisicing elit. Et sint non reiciendis magni corporis quisquam minus nam officiis, quidem mollitia provident
