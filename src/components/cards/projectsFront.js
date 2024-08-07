@@ -6,7 +6,7 @@ const projects = [
     title: 'TODO AP',
     technologies: 'TailwindCSS - JavaScript - React ',
     description:
-      'With this project, I aim to review concepts related to React such as Hooks, Componentization, Routing, DOM manipulation, etc., using Tailwind CSS for layout and JavaScript as the main language for building dynamic components.',
+      'I aim to review concepts related to React such as Hooks, Routing, etc., using Tailwind CSS for layout and JavaScript as the main language.',
     deploy: 'https://todo-app-eight-sigma.vercel.app/',
     repo: 'https://github.com/CarolinaPallaro/TodoApp',
   },
@@ -15,7 +15,7 @@ const projects = [
     title: 'Portfolio Anterior',
     technologies: 'CSS - HTML - JavaScript - React ',
     description:
-      'This is my previous portfolio, created before I immersed myself in the world of FrontEnd. While it reflects my style and skills from that time. Since then, I’ve significantly advanced my understanding and expertise in FrontEnd technologies and now apply more advanced and modern practices in my current projects.',
+      'This is my previous portfolio, created before I immersed myself in the world of FrontEnd. While it reflects my style and skills from that time.',
     deploy: 'https://portfolio-web-five-swart.vercel.app/',
     repo: 'https://github.com/CarolinaPallaro/WEB-Portfolio/tree/main/portfolio',
   },
@@ -31,9 +31,9 @@ const projects = [
   {
     images: '/imgs/odontos.png',
     title: 'Odontólogos',
-    technologies: 'CSS - HTML - JavaScript - React (Router, Hooks, Material UI)',
+    technologies: 'CSS - HTML - JavaScript - React',
     description:
-      'An exam project that React Hooks, componentization, routing, DOM Manangement, and handling external APIs',
+      'An exam project that React Hooks, componentization, routing, DOM Manangement, and handling external APIs.',
     deploy: 'https://front-odontos.vercel.app/',
     repo: 'https://github.com/CarolinaPallaro/Front-Odontos',
   },
