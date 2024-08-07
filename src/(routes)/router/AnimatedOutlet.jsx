@@ -14,19 +14,15 @@ const AnimatedOutlet = () => {
   const shouldAnimate = routesWithAnimation.includes(location.pathname);
 
   return (
-    <AnimatePresence mode="popLayout">
+    <AnimatePresence mode="wait">
       <motion.div
         key={location.pathname}
-        initial={{ opacity: 0, x: 50 }}
-        animate={{ opacity: 1, x: 0 }}
-        exit={{ opacity: 0, x: -50 }}
-        transition={{ duration: 0.5 }}
+        initial={{ opacity: 0.2, x: 0 }}
+        animate={{ opacity: 4, x: 0 }}
+        exit={{ opacity: 0, x: -500 }}
+        transition={{ duration: 1 }}
       >
-        {shouldAnimate ? (
-          <SectionTransition Section={() => outlet} />
-        ) : (
-          outlet
-        )}
+        {shouldAnimate ? <SectionTransition Section={() => outlet} /> : outlet}
       </motion.div>
     </AnimatePresence>
   );
