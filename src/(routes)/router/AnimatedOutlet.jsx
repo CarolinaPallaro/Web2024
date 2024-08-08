@@ -18,9 +18,10 @@ const AnimatedOutlet = () => {
       <motion.div
         key={location.pathname}
         initial={{ opacity: 0.2, x: 0 }}
-        animate={{ opacity: 4, x: 0 }}
-        exit={{ opacity: 0, x: -500 }}
+        animate={{ opacity: 2, x: 0 }}
+        exit={{ opacity: 0, x: -0 }}
         transition={{ duration: 1 }}
+        className="overflow-hidden"
       >
         {shouldAnimate ? <SectionTransition Section={() => outlet} /> : outlet}
       </motion.div>

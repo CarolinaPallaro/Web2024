@@ -3,8 +3,8 @@
   top: 0;
   left: 0;
   z-index: 1000;
-  width: 90vw;
-  height: 90vh;
+  width: 100vw;
+  height: 100vh;
   background: rgb(23, 23, 23);
   transform-origin: left;
 }
@@ -14,12 +14,12 @@
   top: 0;
   left: 0;
   z-index: 1000;
-  width: 90vw;
-  height: 90vh;
+  width: 100vw;
+  height: 100vh;
   background: rgb(23, 23, 23);
   transform-origin: right ;
 }
 
-.slideIn .slideOut{
-overflow-x: hidden;
-}
+/* .slideIn .slideOut{
+overflow: hidden;
+} */
