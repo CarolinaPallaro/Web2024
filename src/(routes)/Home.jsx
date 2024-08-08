@@ -20,8 +20,8 @@ const Home = () => {
 
           <p className=" text-primaryFont text-left tablet:text-lg">
             With <strong className="text-details font-serif">3+ years</strong> dedicated to studying and practicing web
-            development. I am currently seeking my first formal work experience, eager to apply my knowledge in creating
-            intuitiveand engaging user interfaces.
+            development, I am seeking my first formal work experience. I am highly motivated to apply my knowledge in
+            creating functional systems and designing intuitive and creative interfaces.
           </p>
 
           <br />
