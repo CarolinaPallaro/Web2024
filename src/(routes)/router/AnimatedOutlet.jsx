@@ -21,7 +21,6 @@ const AnimatedOutlet = () => {
         animate={{ opacity: 2, x: 0 }}
         exit={{ opacity: 0, x: -0 }}
         transition={{ duration: 1 }}
-        className="overflow-hidden"
       >
         {shouldAnimate ? <SectionTransition Section={() => outlet} /> : outlet}
       </motion.div>
@@ -30,4 +29,3 @@ const AnimatedOutlet = () => {
 };
 
 export default AnimatedOutlet;
-
