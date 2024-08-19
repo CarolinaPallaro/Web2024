@@ -14,7 +14,7 @@ const Home = () => {
         <article className=" tablet:text-left p-4 ">
           <h1 className="text-primary text-3xl font-lexend font-bold ">
             {" "}
-            <span className="text-primaryFont ">Hi im Caro, </span>
+            <span className="text-primaryFont ">Hi I'm Caro, </span>
             <br /> Front Developer
           </h1>
 
