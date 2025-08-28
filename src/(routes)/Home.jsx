@@ -19,9 +19,7 @@ const Home = () => {
           </h1>
 
           <p className=" text-primaryFont text-left tablet:text-lg">
-            With <strong className="text-details font-serif">3+ years</strong> dedicated to studying and practicing web
-            development, I am seeking my first formal work experience. I am highly motivated to apply my knowledge in
-            creating functional systems and designing intuitive and creative interfaces.
+            Since<strong className="text-details font-serif">  2021 </strong> I've been exploring and developing the web, combining strong technical skills with a creative mindset to design functional, intuitive, and engaging digital experiences. I'm always curious, constantly learning, and always looking for smarter ways to turn my ideas into reality.
           </p>
 
           <br />

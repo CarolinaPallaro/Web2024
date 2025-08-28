@@ -8,7 +8,7 @@ const AnimatedOutlet = () => {
   const location = useLocation();
 
   // Definimos las rutas que requieren animación
-  const routesWithAnimation = ["/about", "/portfolio", "/skills"];
+  const routesWithAnimation = ["/about", "/experience", "/skills"];
 
   // Determinamos si la ruta actual debe tener animación
   const shouldAnimate = routesWithAnimation.includes(location.pathname);

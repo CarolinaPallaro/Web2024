@@ -16,7 +16,7 @@ const SocialNav = () => {
             className="  text-4xl cursor-pointer movil:text-grow hover:text-secondary transition-colors duration-500 "
             key={index}
           >
-            <a href={item.link} target="_blank" rel="noopener noreferrer">
+            <a title={item.name} href={item.link} target="_blank" rel="noopener noreferrer">
               <item.icon className="text-4xl " />
             </a>
           </li>

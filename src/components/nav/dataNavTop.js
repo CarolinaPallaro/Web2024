@@ -15,7 +15,7 @@ const socialMedia = [
   },
   {
     name: 'Mail',
-    link: 'mailto:charopallaro20@gmail.com',
+    link: 'mailto:charopallaro@gmail.com',
     icon: CiMail,
   },
 ];

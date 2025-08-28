@@ -1,3 +1,4 @@
+const currentYear = new Date().getFullYear();
 //Front Projects
 
 const projects = [
@@ -39,4 +40,34 @@ const projects = [
   },
 ];
 
-export { projects };
+// Expierce 
+
+const experience = [
+
+  {
+    yearNumber: currentYear,
+    year: 'feb - Present',
+    role: 'Web development in Dinkum Interactive',
+    technologies: 'Typescript, React, TailwindCSS, Elixir, Playwright',
+    description: 'Developed and maintained automated tests with Playwright. Collaborated on backend development with Elixir and frontend development with React. Actively participated in agile teams, managing tasks and tracking projects through GitHub Issues.',
+    link: 'https://www.behance.net/gallery/144641409/Personal-Portfolio-Web-Design?locale=es_ES',
+  },
+  {
+    yearNumber: 2024,
+    year: 'sep - feb 2025',
+    role: 'Web development in Independent Contract',
+    technologies: 'Elixir, Phoenix, Postman, React, TailwindCSS',
+    description: 'Implemented and integrated Phoenix interfaces from HTML/Tailwind designs. Developed and optimized functionality in Elixir with Phoenix, including CRUD operations and backend improvements for integration with a new React frontend.',
+  },
+  {
+    yearNumber: 2024,
+    year: 'aug',
+    role: 'Self-taught Developer',
+    technologies: 'React, Next, TailwindCSS, Figma',
+    description: 'This was my first formal project for a company in the agricultural sector. I worked as a Front-End Developer and Designer, collaborating closely with the Product Manager to bring the proposal to production. Unfortunately, the site is no longer active.',
+    link: 'https://landing-page-ten-taupe-44.vercel.app/'
+  },
+]
+
+
+export { projects, experience };

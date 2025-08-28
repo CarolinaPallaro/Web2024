@@ -1,6 +1,6 @@
 import React from "react";
 import App from "../App.jsx";
-import { Home, About, Portfolio, Skills } from "../index.js";
+import { Home, About, Experience, Skills, NotFound } from "../index.js";
 import { createBrowserRouter } from "react-router-dom";
 
 export const navRoutes = [
@@ -15,15 +15,16 @@ export const navRoutes = [
     name: "About",
   },
   {
-    path: "/portfolio",
-    element: <Portfolio />,
-    name: "Portfolio",
+    path: "/experience",
+    element: <Experience />,
+    name: "Experience",
   },
-  {
-    path: "/skills",
-    element: <Skills />,
-    name: "Skills",
-  },
+  // {
+  //   path: "/skills",
+  //   element: <Skills />,
+  //   name: "Skills",
+  // },
+ 
 ];
 
 const routes = createBrowserRouter([
@@ -35,6 +36,11 @@ const routes = createBrowserRouter([
       element: route.element,
     })),
   },
+  {
+    path:"*",
+    element: <NotFound />,
+    name: "NotFound"
+  }
 ]);
 
 export default routes;
