@@ -13,16 +13,18 @@ const ExperienceCard = ({ year, role, technologies, description, link}) => {
         Technologies: <em>{technologies}</em>
       </p>
 
-      <div className="flex flex-row gap-5 items-center font-semibold">
-        <a
-          href={link}
-          target="_blank"
-          rel="noopener noreferrer"
-          className=" text-primary text-sm cursor-pointer"
-        >
-          Link
-        </a>
-      </div>
+      {link && (
+        <div className="flex flex-row gap-5 items-center font-semibold">
+          <a
+            href={link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className=" text-primary text-sm cursor-pointer"
+          >
+            Link
+          </a>
+        </div>
+      )}
     </article>
   );
 };

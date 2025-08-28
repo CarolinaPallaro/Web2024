@@ -50,7 +50,7 @@ const experience = [
     role: 'Web development in Dinkum Interactive',
     technologies: 'Typescript, React, TailwindCSS, Elixir, Playwright',
     description: 'Developed and maintained automated tests with Playwright. Collaborated on backend development with Elixir and frontend development with React. Actively participated in agile teams, managing tasks and tracking projects through GitHub Issues.',
-    link: 'https://www.behance.net/gallery/144641409/Personal-Portfolio-Web-Design?locale=es_ES',
+    
   },
   {
     yearNumber: 2024,
