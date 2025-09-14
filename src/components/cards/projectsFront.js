@@ -45,8 +45,8 @@ const projects = [
 const experience = [
 
   {
-    yearNumber: currentYear,
-    year: 'feb - Present',
+    yearNumber: 2025,
+    year: 'feb - aug 2025',
     role: 'Web development in Dinkum Interactive',
     technologies: 'Typescript, React, TailwindCSS, Elixir, Playwright',
     description: 'Developed and maintained automated tests with Playwright. Collaborated on backend development with Elixir and frontend development with React. Actively participated in agile teams, managing tasks and tracking projects through GitHub Issues.',
@@ -61,11 +61,11 @@ const experience = [
   },
   {
     yearNumber: 2024,
-    year: 'aug',
+    year: 'aug 2024',
     role: 'Self-taught Developer',
-    technologies: 'React, Next, TailwindCSS, Figma',
-    description: 'This was my first formal project for a company in the agricultural sector. I worked as a Front-End Developer and Designer, collaborating closely with the Product Manager to bring the proposal to production. Unfortunately, the site is no longer active.',
-    link: 'https://landing-page-ten-taupe-44.vercel.app/'
+    technologies: 'React, Next, TailwindCSS, Figma, Vercel',
+    description: 'This was my first formal project for a company in the agricultural sector. I served as a front-end developer and designer in the creation of the companys landing page. In addition to technical work, I participated in meetings with the client to gather information, define requirements, and propose solutions that met their needs. Although the website is no longer active, this experience allowed me to strengthen interpersonal skills such as effective communication, organization, and converting ideas into concrete results.',
+    // link: 'https://landing-page-ten-taupe-44.vercel.app/'
   },
 ]
 
