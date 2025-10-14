@@ -21,6 +21,7 @@ const ProjectCard = ({ images, title, technologies, description, deploy, repo })
         >
           Deploy
         </a>
+        {repo && (    
         <a
           className="text-primaryFont no-underline hover:underline cursor-pointer"
           href={repo}
@@ -29,6 +30,7 @@ const ProjectCard = ({ images, title, technologies, description, deploy, repo })
         >
           Repository
         </a>
+      )}
       </div>
     </article>
   );

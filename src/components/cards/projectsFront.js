@@ -3,6 +3,15 @@ const currentYear = new Date().getFullYear();
 
 const projects = [
   {
+        images: '/imgs/pranasitio.png',
+    title: 'Website Prana',
+    technologies: 'Wix - JavaScript - CSS',
+    description:
+      'As a result of experimenting with Wix and WordPress, focusing on CSS, SEO, UI design to learn about these tools.',
+    deploy: 'https://sandrablua.wixsite.com/prana',
+    // repo: 'https://github.com/CarolinaPallaro/TodoApp',
+  },
+  {
     images: '/imgs/todoApp.png',
     title: 'TODO AP',
     technologies: 'TailwindCSS - JavaScript - React ',
